@@ -1,6 +1,16 @@
+# Spring Boot Demo Application
+
+## Prerequisites Installation
+
+```sh
+apt-get update 
+apt-get install default-java <br>
+apt-get install maven <br>
+```
+
 Run MySQL Docker 
 
-`docker run -p 3306:3306 --name mysql-server -e MYSQL_ROOT_PASSWORD=root -d mysql:8.0.23`
+> `docker run -p 3306:3306 --name mysql-server -e MYSQL_ROOT_PASSWORD=root -d mysql:8.0.23`
 
 Connect to MySQL using mysql command
 
