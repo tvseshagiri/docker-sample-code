@@ -38,3 +38,11 @@ Search with a name
 Filter serach by stars
 
 > `docker search `**` --filter stars=1000 `**` java`
+
+## Build custom Docker Image
+
+> `docker build -t figlet-img .`
+
+## Seeing the history of the image
+
+> `docker history figlet-img`

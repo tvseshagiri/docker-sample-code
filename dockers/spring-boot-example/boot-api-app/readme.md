@@ -16,7 +16,7 @@ Run MySQL with custom volume for data persistence
 
 Insert Student with curl 
 
-`curl -i -H "Content-Type:application/json" -d '{"firstName": "Telkapalli", "lastName": "Seshagiri", "City": "Hyderabad"}' http://localhost:8080/student`
+`curl -i -H "Content-Type:application/json" -d '{"firstName": "Telkapalli", "lastName": "Seshagiri", "city": "Hyderabad"}' http://localhost:8080/student`
 
 
 Delete Student with ID
