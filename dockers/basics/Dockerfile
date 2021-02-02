@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-LABEL AIP
+LABEL AIP AIP@google.com
 
 RUN apk add --no-cache figlet
 

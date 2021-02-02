@@ -4,8 +4,8 @@
 
 ```sh
 apt-get update 
-apt-get install default-java <br>
-apt-get install maven <br>
+apt install default-jdk 
+apt install maven 
 ```
 
 Run MySQL Docker 
